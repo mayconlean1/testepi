@@ -84,3 +84,18 @@ button:hover{
     color: green;
     font-size: xx-large;
 }
+
+@media  screen and (max-width:499px) {
+    body{
+        padding:1rem;
+    }
+    main{
+        width:90%;
+        height:95vh;
+    }
+
+    .selectRespost{
+        display:flex;
+        flex-direction: column;
+    }
+}
